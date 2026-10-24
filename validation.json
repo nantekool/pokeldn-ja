@@ -1,0 +1,15 @@
+{
+  "UI_keys": 1700,
+  "unique_source_strings": 1505,
+  "missing_keys": 0,
+  "extra_keys": 0,
+  "placeholder_or_format_mismatches": 0,
+  "all_strings_runtime_format_checked": true,
+  "package_findings": [],
+  "messages": 1197,
+  "terms": 31,
+  "limitations": [
+    "GUI and real ESP32/Switch operation not tested",
+    "Advanced tool help, documentation and unmatched module/log messages remain English"
+  ]
+}
