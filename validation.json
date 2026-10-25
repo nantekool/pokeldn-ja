@@ -1,15 +1,23 @@
 {
-  "UI_keys": 1700,
-  "unique_source_strings": 1505,
+  "upstream_version": "v0.41.0",
+  "upstream_commit": "56b784b7a4d615b76c38f2a00868ca17c6be7c61",
+  "pack_version": "1.1.0",
+  "UI_keys": 1737,
+  "added_keys": 39,
+  "removed_keys": [
+    "gts.asks_for_open_until_offer_answered_7137e1",
+    "settings.the_original_trainer_of_every_pokemon_the_app_builds_fo_3e4326"
+  ],
   "missing_keys": 0,
   "extra_keys": 0,
   "placeholder_or_format_mismatches": 0,
   "all_strings_runtime_format_checked": true,
   "package_findings": [],
-  "messages": 1197,
+  "messages": 1218,
   "terms": 31,
   "limitations": [
-    "GUI and real ESP32/Switch operation not tested",
-    "Advanced tool help, documentation and unmatched module/log messages remain English"
+    "GUI and ESP32/Switch hardware not tested",
+    "Advanced tool help, documentation and unmatched module/log messages remain English",
+    "Full check_language_pack.py not run; runtime dependencies are unavailable"
   ]
 }
