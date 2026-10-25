@@ -2,7 +2,7 @@
 
 画面の英語を日本語に切り替える追加パックです。本体の再ビルドは不要です。
 
-[日本語パックをダウンロード](https://github.com/nantekool/pokeldn-ja/releases/latest)
+[日本語パックをダウンロード](https://github.com/nantekool/pokeldn-ja/raw/refs/heads/main/pokeldn-ja-1.1.0.pokeplugin)
 
 ## v1.1.0 の更新内容
 
@@ -59,9 +59,3 @@ python scripts/pack_plugin.py PATH_TO/pokeldn-ja -o pokeldn-ja-1.1.0.pokeplugin
 ```
 
 配布パックは翻訳データのみで、実行コードは含みません。署名は付けていません。上流の英語文言を基にした翻訳として、同梱のAGPLv3ライセンスを適用します。上流の公式配布物ではありません。
-
-## 配布と今後の更新
-
-インストール用の `.pokeplugin` は [Releases](https://github.com/nantekool/pokeldn-ja/releases) の各バージョンの Assets からダウンロードしてください。`Source code` は編集用で、そのままインストールするファイルではありません。
-
-今後も翻訳更新・検証後にパックのバージョンを上げ、`v<バージョン>` のReleaseを作成し、対応する `.pokeplugin` と `validation.json` を添付します。Releaseの説明には対応するpokeldn本体のバージョン、変更内容、導入手順を記載します。リポジトリ本体では翻訳ソースと説明書を管理します。
