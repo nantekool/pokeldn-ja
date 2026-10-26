@@ -1,7 +1,7 @@
 {
   "upstream_version": "v0.45.0",
   "upstream_commit": "bd876979a75a676943b87fe05e7a1ac268dabf30",
-  "pack_version": "1.2.0",
+  "pack_version": "0.45.0",
   "UI_keys": 1791,
   "added_keys": 59,
   "removed_keys": [

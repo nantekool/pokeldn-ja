@@ -2,18 +2,22 @@
 
 画面の英語を日本語に切り替える追加パックです。本体の再ビルドは不要です。
 
-[日本語パックをダウンロード](https://github.com/nantekool/pokeldn-ja/raw/refs/heads/main/pokeldn-ja-1.2.0.pokeplugin)
+[日本語パックをダウンロード](https://github.com/nantekool/pokeldn-ja/raw/refs/heads/main/pokeldn-ja-0.45.0.pokeplugin)
 
-## v1.2.0 の更新内容
+## v0.45.0 の更新内容
 
 pokeldn **v0.45.0** に対応。バンクの図鑑・能力値表示、接続方法とゲーム機側の役割の選択、LAN経由の交換・レイドの案内など59項目を追加し、削除された5項目を整理しました。
 
 既存パックの利用者は「プラグイン」から新しい `.pokeplugin` ファイルを選んで更新し、アプリを再起動してください。
 
+## バージョン表記
+
+日本語パックのバージョンは、対応するpokeldn本体と同じ番号にします。旧表記v1.2.0とv0.45.0の翻訳内容は同一です。旧表記から入れ直す際は、番号が小さくなるためアプリで「ダウングレード」と表示される場合があります。
+
 ## 導入
 
 1. pokeldnを起動し、サイドメニューの **Plugins** を開きます。
-2. **Add a plugin** または **Add a .pokeplugin file** から `pokeldn-ja-1.2.0.pokeplugin` を選びます。画面にファイルをドロップしても追加できます。
+2. **Add a plugin** または **Add a .pokeplugin file** から `pokeldn-ja-0.45.0.pokeplugin` を選びます。画面にファイルをドロップしても追加できます。
 3. 内容を確認して **Install** を押します。
 4. **Settings → App language** で **日本語** を選びます。
 5. pokeldnを終了し、もう一度起動します。
@@ -37,7 +41,7 @@ pokeldn **v0.45.0** に対応。バンクの図鑑・能力値表示、接続方
 
 - 元リポジトリ: https://github.com/Decryptu/pokeldn
 - 参照コミット: `bd876979a75a676943b87fe05e7a1ac268dabf30`
-- 言語パックAPI: `1.9`、パック版: `1.2.0`
+- 言語パックAPI: `1.9`、パック版: `0.45.0`
 - 原文とのキー照合: 欠落0、余分0。
 - 差し込み変数・書式指定の照合: 不一致0。
 - アプリの言語ローダーで全1,791項目の読み込み・書式適用を検証。
@@ -55,7 +59,7 @@ GUIでの表示崩れ、ESP32・Switch実機での操作、PKHeXサービスか�
 上流リポジトリと実行環境がある場合は、次のコマンドで再梱包できます。
 
 ```text
-python scripts/pack_plugin.py PATH_TO/pokeldn-ja -o pokeldn-ja-1.2.0.pokeplugin
+python scripts/pack_plugin.py PATH_TO/pokeldn-ja -o pokeldn-ja-0.45.0.pokeplugin
 ```
 
 配布パックは翻訳データのみで、実行コードは含みません。署名は付けていません。上流の英語文言を基にした翻訳として、同梱のAGPLv3ライセンスを適用します。上流の公式配布物ではありません。
