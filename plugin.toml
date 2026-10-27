@@ -1,6 +1,6 @@
 id = "community-ja"
 name = "日本語"
-version = "0.45.0"
+version = "0.45.4"
 api = "1.9"
 locale = "ja"
 strings = "strings.toml"

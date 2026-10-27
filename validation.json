@@ -1,26 +1,28 @@
 {
-  "upstream_version": "v0.45.0",
-  "upstream_commit": "bd876979a75a676943b87fe05e7a1ac268dabf30",
-  "pack_version": "0.45.0",
-  "UI_keys": 1791,
-  "added_keys": 59,
+  "upstream_version": "v0.45.4",
+  "upstream_commit": "e4ba6b859a3a44b438185e5761626d6409279148",
+  "pack_version": "0.45.4",
+  "UI_keys": 1793,
+  "added_keys": 6,
   "removed_keys": [
-    "bank.drop_a_pokemon_file_or_a_game_save_here_to_import_what__7adc95",
-    "bank.import_a_pokemon_file_or_a_game_save_da7f8c",
-    "catalog.pick_a_species_pkhex_builds_a_legal_one_empty_offers_po_304364",
-    "catalog.pick_a_species_pkhex_builds_a_legal_one_empty_offers_yo_38b1cc",
-    "catalog.pick_a_species_pkhex_builds_a_legal_one_for_this_game_a135d7"
+    "games.after_you_choose_pokeldn_in_the_friend_list_your_game_r_1fb839",
+    "games.detected_automatically_ff4f09",
+    "games.english_french_german_italian_spanish_japanese_54bc86",
+    "games.game_language_233497"
   ],
   "missing_keys": 0,
   "extra_keys": 0,
   "placeholder_or_format_mismatches": 0,
   "all_strings_runtime_format_checked": true,
   "package_findings": [],
-  "messages": 1266,
+  "messages": 1272,
   "terms": 31,
   "limitations": [
     "GUI and ESP32/Switch hardware not tested",
     "Advanced tool help, documentation and unmatched module/log messages remain English",
     "Full check_language_pack.py not run; runtime dependencies are unavailable"
+  ],
+  "changed_keys": [
+    "catalog.rse_gift_menu"
   ]
 }
