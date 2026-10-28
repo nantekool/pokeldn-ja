@@ -1271,3 +1271,7 @@
 "You offered; waiting for the lister." = "交換を申し込みました。募集者を待っています。"
 "Your offer" = "自分の申し込み"
 "Title screen: Mystery Gift, Wonder Cards, Friend. Emerald lists Mystery Gift once the player has the Pokedex and has written LINK TOGETHER WITH ALL on the Poke Mart questionnaire." = "タイトル画面→「ふしぎなおくりもの」（Mystery Gift）→「ふしぎなカード」（Wonder Cards）→「ともだち」（Friend）。原文の英語版エメラルドの手順では、ポケモン図鑑を入手し、フレンドリィショップのアンケートに LINK TOGETHER WITH ALL と入力すると利用できます。"
+"None of them can go there." = "このゲームに送れるポケモンはいません。"
+"Send them to a game" = "ゲームに送る"
+"Show the board's screen" = "ボードの画面を表示"
+"Draws what the board's pixel screen shows at the top of the Session panel: the link's traffic, each trade's Pokemon, the Mystery Gift card and a raid's lobby. No screen needs to be plugged into the board." = "ボードのピクセル画面の内容をセッションパネルの上部に表示します。通信状況、各交換のポケモン、ふしぎなおくりもののカード、レイドのロビーを確認できます。ボードに実際の画面を接続する必要はありません。"
