@@ -1,21 +1,28 @@
 {
-  "upstream_version": "v0.47.0",
-  "upstream_commit": "040d9029e4f54e330431fb2fa6eefa6b45980e27",
-  "pack_version": "0.47.0",
-  "UI_keys": 1806,
-  "added_keys": 13,
-  "removed_keys": [],
+  "upstream_version": "v0.49.1",
+  "upstream_commit": "fe603fa4a955b4f5e249214c009479f395ef5184",
+  "pack_version": "0.49.1",
+  "UI_keys": 1869,
+  "added_keys": 67,
+  "removed_keys": [
+    "catalog.axis_role",
+    "catalog.axis_role_host",
+    "catalog.axis_role_join",
+    "settings.no_file_at_this_path_f6f154"
+  ],
   "missing_keys": 0,
   "extra_keys": 0,
   "placeholder_or_format_mismatches": 0,
   "all_strings_runtime_format_checked": true,
   "package_findings": [],
-  "messages": 1276,
+  "messages": 1319,
   "terms": 31,
   "limitations": [
     "GUI and ESP32/Switch hardware not tested",
     "Advanced tool help, documentation and unmatched module/log messages remain English",
     "Full check_language_pack.py not run; runtime dependencies are unavailable"
   ],
-  "changed_keys": []
+  "changed_keys": [
+    "settings.your_trainer_detail"
+  ]
 }
